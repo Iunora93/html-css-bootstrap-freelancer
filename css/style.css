@@ -3,3 +3,42 @@
     padding: 0;
     margin: 0;
 }
+
+:root {
+    --ms-primary-color: #1abc9c;
+    --ms-secondary-color: #2c3e50;
+    --tertiary-color: #3a546d;
+    --first-image: #ba4b63;
+    --second-image: #1ea4b6;
+    --third-image: #140f0f;
+    --fourth-image: #1c83c1;
+    --fifth-image: #0e38b5;
+    --sixth-image: #ccb2a3;
+}
+
+.ms-secondary-color {
+    background-color: var(--ms-secondary-color);
+    color: white;
+}
+
+.ms-btn {
+    border-color: white;
+    background-color: transparent;
+}
+.ms-main-nav ul {   
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-bottom: 0; /* hanno di default margin */
+    padding-left: 0;  /* hanno di default padding */
+}
+
+.ms-main-nav li {
+    padding: 0 0.5rem;
+}
+
+.ms-main-nav li a {
+    text-decoration: none;
+}
+
+
