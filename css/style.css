@@ -7,13 +7,13 @@
 :root {
     --ms-primary-color: #1abc9c;
     --ms-secondary-color: #2c3e50;
-    --tertiary-color: #3a546d;
-    --first-image: #ba4b63;
-    --second-image: #1ea4b6;
-    --third-image: #140f0f;
-    --fourth-image: #1c83c1;
-    --fifth-image: #0e38b5;
-    --sixth-image: #ccb2a3;
+    --ms-tertiary-color: #3a546d;
+    --ms-first-image: #ba4b63;
+    --ms-second-image: #1ea4b6;
+    --ms-third-image: #140f0f;
+    --ms-fourth-image: #1c83c1;
+    --ms-fifth-image: #0e38b5;
+    --ms-sixth-image: #ccb2a3;
 }
 
 /* -----------
@@ -91,6 +91,50 @@
     justify-content: center;
 }
 
+.line-left-contact, .line-right-contact {
+    width: 70px;
+    height: 3px;
+    background-color: black;
+    margin: 0px 6px;
+    border-radius: 100px;
+}
+
+.ms-hr {
+    margin-top: 200px;
+}
+
+.ms-btn-contact {
+    border: none;
+    background-color: var(--ms-primary-color);
+    
+}
+
+.ms-btn-contact ul {
+    list-style: none;
+}
+
+.ms-contact-nav li {
+    padding: 10px 0px;
+    list-style: none;
+}
+
+.ms-contact-nav li a {
+    text-decoration: none;
+    color: black
+}
+
+/* ----------
+    FOOTER
+    --------- */
+    .ms-tertiary-color {
+        background-color: var(--ms-tertiary-color);
+        color: white;
+    }
+
+    .ms-secondary-color {
+        background-color: var(--ms-secondary-color);
+        color: white;
+    }
 
 
 
