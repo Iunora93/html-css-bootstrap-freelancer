@@ -16,6 +16,9 @@
     --sixth-image: #ccb2a3;
 }
 
+/* -----------
+    HEADER
+    ---------- */
 .ms-secondary-color {
     background-color: var(--ms-secondary-color);
     color: white;
@@ -40,5 +43,57 @@
 .ms-main-nav li a {
     text-decoration: none;
 }
+
+/* --------------
+    MAIN
+    ------------- */
+#hero {
+    color: white;
+    /* background-color: var(--ms-primary-color); */
+}
+
+.ms-primary-color {
+    background-color: var(--ms-primary-color);
+}
+
+.ms-hero-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.ms-hero-nav li {
+    padding: 0 3px;
+}
+
+.ms-hero-nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.line-left, .line-right {
+    width: 70px;
+    height: 3px;
+    background-color: white;
+    margin: 0px 6px;
+    border-radius: 100px;
+}
+
+.ms-box {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
 
 
