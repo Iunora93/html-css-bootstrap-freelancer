@@ -201,7 +201,9 @@
         border-right: none;
     }
 
-    
+    .ms-container-small {
+        padding: 0 80px;
+    }
 
 
 
