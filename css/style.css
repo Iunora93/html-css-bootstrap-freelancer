@@ -28,6 +28,7 @@
     border-color: white;
     background-color: transparent;
 }
+
 .ms-main-nav ul {   
     display: flex;
     justify-content: flex-end;
@@ -140,6 +141,26 @@
         text-align: center;
     }
 
+    .ms-primary-color .ms-box {
+        color: white;
+    }
+
+    .ms-text-align-center {
+        text-align: center;
+    }
+
+    .circle {
+        border: 1px solid black;
+        border-radius: 100px;
+        max-width: 50%;
+    }
+
+    .ms-inside-circle{
+        max-width: 100%;
+    }
+    img {
+        width: 100%;
+    }
 
 
 
