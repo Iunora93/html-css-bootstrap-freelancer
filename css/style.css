@@ -186,6 +186,15 @@
         padding: 0 10px;
     }
 
+    .ms-border-image {
+        border-radius: 20px;
+    }
+
+    .ms-btn-about {
+        text-align:center;
+        padding-top: 50px;
+    }
+
 
 
 
